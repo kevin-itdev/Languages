@@ -15,7 +15,12 @@
 <body>
 	<header>     
 
-		<h1 class="pTitle">global-reads.com</h1>
+	<h1 class="pTitle">global-reads.com</h1>
+
+<!-- 	<div class="wallet-container">
+	    <button id="connect-wallet" class="wallet-btn">Connect Wallet</button>
+	    <p id="wallet-address" class="wallet-text"></p>
+        </div> -->
       
         <div class="dropdown">
           <button class="dropbtn">
@@ -24,6 +29,7 @@
               English &#9662;
             </p>
           </button>
+		
           <div class="dropdown-content">
             <a href=".\español/indice.html">
               <p class="pText" style="color:#000000">
@@ -91,6 +97,23 @@
 
 </body>
 
+
+<!--     <script>
+        async function connectWallet() {
+            if (window.solana && window.solana.isPhantom) {
+                try {
+                    const response = await window.solana.connect();
+                    document.getElementById("wallet-address").innerText = response.publicKey.toString();
+                } catch (err) {
+                    console.error("Connection failed", err);
+                }
+            } else {
+                alert("Please install the Phantom Wallet extension!");
+            }
+        }
+        
+        document.getElementById("connect-wallet").addEventListener("click", connectWallet);
+    </script>	 -->
 
 
 <footer>
