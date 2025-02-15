@@ -174,7 +174,7 @@ footer {
   /* Scale payment logos */
   .paypal-form img,
   button img {
-    height: 60px; /* Increase size of payment logos */
+    height: 100px; /* Increase size of payment logos */
     margin-right: 8px;
   }
 }
