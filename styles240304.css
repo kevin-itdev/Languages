@@ -166,6 +166,17 @@ footer {
   	max-width: 300px;
     max-height: 300px;
   }
+  .flag-img {
+    width: 50px;  /* Increase flag size for better visibility */
+    height: auto;
+  }
+
+  /* Scale payment logos */
+  .paypal-form img,
+  button img {
+    height: 60px; /* Increase size of payment logos */
+    margin-right: 8px;
+  }
 }
 
 
